@@ -18,8 +18,6 @@
 
 .web-header {
   border-bottom: 1px solid var(--website-header-border);
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .web-header .topbar {
@@ -208,6 +206,10 @@ ul {
   display: inline-block;
 }
 
+.web-content .our-profile .detail:not(:last-child) {
+  margin-right: 30px;
+}
+
 .web-content .our-profile .detail .box {
   width: 270px;
   background: var(--fill);
@@ -324,7 +326,7 @@ ul {
   padding-bottom: 15px;
 }
 
-.web-content .our-team .socialMedia {
+.web-content .socialMedia .our-team {
   padding-bottom: 30px;
 }
 
@@ -362,19 +364,11 @@ ul {
   width: 100%;
 }
 
-.web-content .portfolio .buttons-bar {
-  padding-bottom: 50px;
-}
-
 .web-content .portfolio .buttons-bar .details {
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 8px;
-}
-
-.web-content .portfolio .buttons-bar .details .detail {
-  display: inline-block;
   list-style: none;
 }
 
@@ -409,6 +403,7 @@ ul {
 
 .web-content .portfolio .label .details {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 30px;
 }
